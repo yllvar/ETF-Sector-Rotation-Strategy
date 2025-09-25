@@ -3,7 +3,20 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A Python implementation of a sector rotation trading strategy that identifies and invests in the strongest performing market sectors using the MetaSync API.
+Implementation of a sector rotation trading strategy accross 7 ETF sectors that identifies and invests in the strongest performing market sectors using the MetaSync API. 
+
+## Growth Sectors:
+
+XLF (Financial Select Sector SPDR Fund): Banks, insurance, financial services
+XLE (Energy Select Sector SPDR Fund): Oil, gas, and energy companies
+XLI (Industrial Select Sector SPDR Fund): Manufacturing, aerospace, construction
+USTEC (NASDAQ-100): Technology proxy for growth exposure
+
+## Defensive Sectors:
+
+XLP (Consumer Staples Sector SPDR Fund): Essential goods, recession-resistant
+XLU (Utilities Sector SPDR Fund): Power, water, telecommunications
+XLV (Healthcare Sector SPDR Fund): Pharmaceuticals, medical devices
 
 ## 🌟 Features
 
@@ -88,35 +101,13 @@ The strategy works by:
    ================================================================================
    ```
 
-## 🛠 Configuration
+## Economic Cycles and Sector Performance
 
-Edit `config.py` to customize:
-- Sectors and symbols to track
-- Benchmark index
-- Update interval
-- Signal thresholds
+Understanding economic cycles is crucial for effective sector rotation. Each phase favors different types of businesses and investment themes.
+Sector Performance by Economic Phase
 
-## 📈 Performance Metrics
+<img width="604" height="279" alt="Screenshot 2025-09-25 at 22 00 59" src="https://github.com/user-attachments/assets/48f53213-6f89-4f78-8eba-d11b00a65bff" />
 
-The strategy includes built-in performance tracking:
-- Daily/Weekly/Monthly returns
-- Win/Loss ratio
-- Maximum drawdown
-- Sharpe ratio
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📚 Resources
-
-- [MetaSync API Documentation](https://docs.metasync.api)
-- [Sector Rotation Investing Guide](https://www.investopedia.com/terms/s/sector-rotation.asp)
-- [Modern Portfolio Theory](https://www.investopedia.com/terms/m/modernportfoliotheory.asp)
 
 ## Risk Warning
 
